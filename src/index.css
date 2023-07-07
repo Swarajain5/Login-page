@@ -5,9 +5,67 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://undsgn.com/wp-content/uploads/2018/04/ltotbngnzzu-uai-1600x900.jpg);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.home-style{
+  padding: 100px;
+  text-align: center;
+  padding-top: 300px;
+  font-size: larger;
+  color: white;
+}
+
+.home-btn{
+  padding: 10px;
+  margin: 20px;
+  width: 200px;
+  background-color:darksalmon;
+  color: white;
+}
+
+.heading{
+  color:white;
+  text-align: center;
+  padding-right:100px ;
+}
+.login_style{
+  padding: 20px 20px;
+  font-family: 'Caprasimo', cursive;
+  font-family: 'Playfair Display', serif;
+  font-size: larger;
+  border-style: solid;
+  width: 80%;
+  color: white;
+}
+
+.signup-name{
+  float: right;
+  padding: 100px;
+}
+
+.signup-image{
+  width: 80%;
+  padding-top: 55px;
+  padding-bottom: 20px;
+  padding-left: 90px;
+}
+
+.signup-form{
+  padding-left: 200px;
+  padding-top: 100px;
+}
+
+.signup-title{
+  color: white;
+  text-align: center;
+}
+
+.button:disabled{
+  background-color: grey;
 }
